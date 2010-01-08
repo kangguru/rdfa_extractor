@@ -1,0 +1,8 @@
+.tiny_line
+  %h4 used namespaces:  
+  = @results.namespaces.join(", ")
+
+%ul    
+  - @results.triples.each do |triple|
+    %li
+      = triple    

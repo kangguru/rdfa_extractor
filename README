@@ -1,0 +1,8 @@
+RDFa extractor is a simple sinatra webapp for visualizing RDFa data
+
+based on:
+- rdfa parser: http://code.google.com/p/ruby-rdfa/
+- graphviz: http://graphviz.org
+- ruby-graphviz: http://github.com/glejeune/Ruby-Graphviz/
+
+simply install all deps and than run rdfa_parser.rb
